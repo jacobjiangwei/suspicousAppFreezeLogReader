@@ -1,0 +1,9 @@
+use_frameworks!
+
+
+
+target "suspicousAppFreeLogReader" do
+    pod 'SSZipArchive'
+    
+end
+

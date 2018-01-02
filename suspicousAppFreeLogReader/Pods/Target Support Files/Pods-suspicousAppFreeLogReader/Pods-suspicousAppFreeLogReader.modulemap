@@ -1,0 +1,6 @@
+framework module Pods_suspicousAppFreeLogReader {
+  umbrella header "Pods-suspicousAppFreeLogReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9355DB781FF9E86E0087D528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355DB771FF9E86E0087D528 /* AppDelegate.swift */; };
+		9355DB7A1FF9E86E0087D528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355DB791FF9E86E0087D528 /* ViewController.swift */; };
+		9355DB7C1FF9E86E0087D528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9355DB7B1FF9E86E0087D528 /* Assets.xcassets */; };
+		9355DB7F1FF9E86E0087D528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9355DB7D1FF9E86E0087D528 /* Main.storyboard */; };
+		9355DB881FF9F6E40087D528 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9355DB871FF9F6E40087D528 /* LogManager.swift */; };
+		94A7AEAA451432BDD261B288 /* Pods_suspicousAppFreeLogReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D057CC95B8244A39AE487D7 /* Pods_suspicousAppFreeLogReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E481867989A6408EBDA97DC /* Pods-suspicousAppFreeLogReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suspicousAppFreeLogReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-suspicousAppFreeLogReader/Pods-suspicousAppFreeLogReader.release.xcconfig"; sourceTree = "<group>"; };
+		5D057CC95B8244A39AE487D7 /* Pods_suspicousAppFreeLogReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_suspicousAppFreeLogReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9355DB741FF9E86E0087D528 /* suspicousAppFreeLogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suspicousAppFreeLogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9355DB771FF9E86E0087D528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9355DB791FF9E86E0087D528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9355DB7B1FF9E86E0087D528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9355DB7E1FF9E86E0087D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9355DB801FF9E86E0087D528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9355DB811FF9E86E0087D528 /* suspicousAppFreeLogReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = suspicousAppFreeLogReader.entitlements; sourceTree = "<group>"; };
+		9355DB871FF9F6E40087D528 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		C974D51C28ED51D508B3B0E4 /* Pods-suspicousAppFreeLogReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-suspicousAppFreeLogReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-suspicousAppFreeLogReader/Pods-suspicousAppFreeLogReader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9355DB711FF9E86E0087D528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A7AEAA451432BDD261B288 /* Pods_suspicousAppFreeLogReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9355DB6B1FF9E86E0087D528 = {
+			isa = PBXGroup;
+			children = (
+				9355DB761FF9E86E0087D528 /* suspicousAppFreeLogReader */,
+				9355DB751FF9E86E0087D528 /* Products */,
+				A3833B8E7E7763DBCA532CDF /* Pods */,
+				FAA521B99118ADCFFDB45282 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9355DB751FF9E86E0087D528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9355DB741FF9E86E0087D528 /* suspicousAppFreeLogReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9355DB761FF9E86E0087D528 /* suspicousAppFreeLogReader */ = {
+			isa = PBXGroup;
+			children = (
+				9355DB771FF9E86E0087D528 /* AppDelegate.swift */,
+				9355DB791FF9E86E0087D528 /* ViewController.swift */,
+				9355DB7B1FF9E86E0087D528 /* Assets.xcassets */,
+				9355DB7D1FF9E86E0087D528 /* Main.storyboard */,
+				9355DB801FF9E86E0087D528 /* Info.plist */,
+				9355DB811FF9E86E0087D528 /* suspicousAppFreeLogReader.entitlements */,
+				9355DB871FF9F6E40087D528 /* LogManager.swift */,
+			);
+			path = suspicousAppFreeLogReader;
+			sourceTree = "<group>";
+		};
+		A3833B8E7E7763DBCA532CDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C974D51C28ED51D508B3B0E4 /* Pods-suspicousAppFreeLogReader.debug.xcconfig */,
+				4E481867989A6408EBDA97DC /* Pods-suspicousAppFreeLogReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAA521B99118ADCFFDB45282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D057CC95B8244A39AE487D7 /* Pods_suspicousAppFreeLogReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9355DB731FF9E86E0087D528 /* suspicousAppFreeLogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9355DB841FF9E86E0087D528 /* Build configuration list for PBXNativeTarget "suspicousAppFreeLogReader" */;
+			buildPhases = (
+				D20CF6682E7F22A35240AB8E /* [CP] Check Pods Manifest.lock */,
+				9355DB701FF9E86E0087D528 /* Sources */,
+				9355DB711FF9E86E0087D528 /* Frameworks */,
+				9355DB721FF9E86E0087D528 /* Resources */,
+				B82F2ECAC602B5553C3AA311 /* [CP] Embed Pods Frameworks */,
+				73291B630DD33D379CA1FCD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suspicousAppFreeLogReader;
+			productName = suspicousAppFreeLogReader;
+			productReference = 9355DB741FF9E86E0087D528 /* suspicousAppFreeLogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9355DB6C1FF9E86E0087D528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jacob Jiang";
+				TargetAttributes = {
+					9355DB731FF9E86E0087D528 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9355DB6F1FF9E86E0087D528 /* Build configuration list for PBXProject "suspicousAppFreeLogReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9355DB6B1FF9E86E0087D528;
+			productRefGroup = 9355DB751FF9E86E0087D528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9355DB731FF9E86E0087D528 /* suspicousAppFreeLogReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9355DB721FF9E86E0087D528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9355DB7C1FF9E86E0087D528 /* Assets.xcassets in Resources */,
+				9355DB7F1FF9E86E0087D528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73291B630DD33D379CA1FCD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suspicousAppFreeLogReader/Pods-suspicousAppFreeLogReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82F2ECAC602B5553C3AA311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-suspicousAppFreeLogReader/Pods-suspicousAppFreeLogReader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-suspicousAppFreeLogReader/Pods-suspicousAppFreeLogReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20CF6682E7F22A35240AB8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-suspicousAppFreeLogReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9355DB701FF9E86E0087D528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9355DB881FF9F6E40087D528 /* LogManager.swift in Sources */,
+				9355DB7A1FF9E86E0087D528 /* ViewController.swift in Sources */,
+				9355DB781FF9E86E0087D528 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9355DB7D1FF9E86E0087D528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9355DB7E1FF9E86E0087D528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9355DB821FF9E86E0087D528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9355DB831FF9E86E0087D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		9355DB851FF9E86E0087D528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C974D51C28ED51D508B3B0E4 /* Pods-suspicousAppFreeLogReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = suspicousAppFreeLogReader/suspicousAppFreeLogReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T6LEXNDF9W;
+				INFOPLIST_FILE = suspicousAppFreeLogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jacob.suspicousAppFreeLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9355DB861FF9E86E0087D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E481867989A6408EBDA97DC /* Pods-suspicousAppFreeLogReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = suspicousAppFreeLogReader/suspicousAppFreeLogReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T6LEXNDF9W;
+				INFOPLIST_FILE = suspicousAppFreeLogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jacob.suspicousAppFreeLogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9355DB6F1FF9E86E0087D528 /* Build configuration list for PBXProject "suspicousAppFreeLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9355DB821FF9E86E0087D528 /* Debug */,
+				9355DB831FF9E86E0087D528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9355DB841FF9E86E0087D528 /* Build configuration list for PBXNativeTarget "suspicousAppFreeLogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9355DB851FF9E86E0087D528 /* Debug */,
+				9355DB861FF9E86E0087D528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9355DB6C1FF9E86E0087D528 /* Project object */;
+}
